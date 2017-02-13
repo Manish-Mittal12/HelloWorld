@@ -1,2 +1,3 @@
 FROM tomcat:-jre8
-ADD sample.war /usr/local/tomcat/webapps/ 
+MAINTAINER “Manish”
+ADD hello-world.war /usr/local/tomcat/webapps/ 
